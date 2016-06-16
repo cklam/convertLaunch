@@ -1,0 +1,9 @@
+mkdir 3.5
+mkdir 4
+mkdir 4.7
+mkdir 5.5
+mkdir ipad
+mkdir ipadpro
+rm gen; touch gen ; ls *.PNG | awk '{print "sh doGen "$1}'   > shdogen
+sh shdogen
+sh gen
